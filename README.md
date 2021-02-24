@@ -14,6 +14,7 @@
 - [동적계획법](https://github.com/sio2whocodes/BOJ/tree/main/DP/DP)
 - [이분탐색](https://github.com/sio2whocodes/BOJ/tree/main/BinarySearch/BinarySearch)
 - [DFS&BFS](https://github.com/sio2whocodes/BOJ/tree/main/dfsNbfs/dfsNbfs)
+- [다익스트라](https://github.com/sio2whocodes/BOJ/tree/main/Dijkstra/Dijkstra)
 
 ### we are studying algorithm (2019.03~)
 - [👩🏻‍💻TOMATOMA](https://github.com/sujin0529)
