@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DEA140C02519C7C600EB3254 /* fractional_knapsack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEA140BF2519C7C600EB3254 /* fractional_knapsack.cpp */; };
+		DE8EE62925E61D6100A13BA6 /* 13305.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE8EE62825E61D6100A13BA6 /* 13305.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		DE27A75B241A0D4B008D63BA /* Greedy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Greedy; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE27A75E241A0D4B008D63BA /* 1931.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1931.cpp; sourceTree = "<group>"; };
+		DE8EE62825E61D6100A13BA6 /* 13305.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 13305.cpp; sourceTree = "<group>"; };
 		DEA140BF2519C7C600EB3254 /* fractional_knapsack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fractional_knapsack.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +61,7 @@
 			children = (
 				DE27A75E241A0D4B008D63BA /* 1931.cpp */,
 				DEA140BF2519C7C600EB3254 /* fractional_knapsack.cpp */,
+				DE8EE62825E61D6100A13BA6 /* 13305.cpp */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
@@ -121,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEA140C02519C7C600EB3254 /* fractional_knapsack.cpp in Sources */,
+				DE8EE62925E61D6100A13BA6 /* 13305.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
