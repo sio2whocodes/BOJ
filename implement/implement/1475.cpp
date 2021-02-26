@@ -4,6 +4,8 @@
 //
 //  Created by 임수정 on 2021/02/26.
 //
+//https://www.acmicpc.net/problem/1475
+//https://sio2whocode.tistory.com/99
 
 #include <iostream>
 #include <cmath>
