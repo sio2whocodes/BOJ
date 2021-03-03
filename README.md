@@ -18,6 +18,6 @@
 - [DFS&BFS](https://github.com/sio2whocodes/BOJ/tree/main/dfsNbfs/dfsNbfs)
 - [다익스트라](https://github.com/sio2whocodes/BOJ/tree/main/Dijkstra/Dijkstra)
 
-### we are studying algorithm (2019.03~)
+### we are studying algorithm (2020.03~)
 - [👩🏻‍💻TOMATOMA](https://github.com/sujin0529)
 - [👩🏻‍💻SiO2Whocodes](https://github.com/sio2whocodes)
