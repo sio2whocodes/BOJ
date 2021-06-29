@@ -5,6 +5,8 @@
 //  Created by 임수정 on 2021/06/28.
 //  Copyright © 2021 임수정. All rights reserved.
 //
+//https://sio2whocode.tistory.com/114
+//https://www.acmicpc.net/problem/11066
 
 #include <iostream>
 #include <climits>
