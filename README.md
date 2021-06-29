@@ -17,7 +17,7 @@
 - [이분탐색](https://github.com/sio2whocodes/BOJ/tree/main/BinarySearch/BinarySearch)
 - [DFS&BFS](https://github.com/sio2whocodes/BOJ/tree/main/dfsNbfs/dfsNbfs)
 - [다익스트라](https://github.com/sio2whocodes/BOJ/tree/main/Dijkstra/Dijkstra)
-- [우선순위 큐](https://github.com/sio2whocodes/BOJ/tree/main/priority_queue)
+- [우선순위 큐](https://github.com/sio2whocodes/BOJ/tree/main/priority_queue/priority_queue)
 
 ### we are studying algorithm (2020.03~)
 - [👩🏻‍💻TOMATOMA](https://github.com/sujin0529)
