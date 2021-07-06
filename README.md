@@ -5,7 +5,7 @@
 - [수학1](https://github.com/sio2whocodes/BOJ/tree/main/math1/math1)
 - [수학2](https://github.com/sio2whocodes/BOJ/tree/main/math2/math2)
 - [수학3](https://github.com/sio2whocodes/BOJ/tree/main/math3/math3)
-- [문자열](https://github.com/sio2whocodes/BOJ/tree/main/String/String)
+- [문자열(C++)](https://github.com/sio2whocodes/BOJ/tree/main/String/String) [문자열(Java)](https://github.com/sio2whocodes/BOJ/tree/main/String_Java/src)
 - [구현](https://github.com/sio2whocodes/BOJ/tree/main/implement/implement)
 - [정렬](https://github.com/sio2whocodes/BOJ/tree/main/Sort/Sort)
 - [스택](https://github.com/sio2whocodes/BOJ/tree/main/stack/stack)
