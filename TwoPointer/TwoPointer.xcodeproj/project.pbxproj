@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE6FC09B269DC26F004FD25F /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE6FC09A269DC26F004FD25F /* test.cpp */; };
+		DEF22A5F26A544F2005ABCE5 /* 1806.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DEF22A5E26A544F2005ABCE5 /* 1806.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		DEF1DB1624B48909008B2FBC /* CopyFiles */ = {
+		DEF22A5926A544F2005ABCE5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,20 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		DE6FC09A269DC26F004FD25F /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
-		DEEEAC7B24CE96A9007C8748 /* 9663-1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "9663-1.cpp"; sourceTree = "<group>"; };
-		DEF1DB1824B48909008B2FBC /* back tracking */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "back tracking"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DEF1DB1B24B48909008B2FBC /* 15649.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15649.cpp; sourceTree = "<group>"; };
-		DEF1DB2224B5978B008B2FBC /* 15650.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15650.cpp; sourceTree = "<group>"; };
-		DEF1DB2424B59B5A008B2FBC /* 15651.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15651.cpp; sourceTree = "<group>"; };
-		DEF1DB2624B59FAE008B2FBC /* 15652.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 15652.cpp; sourceTree = "<group>"; };
-		DEFA328624B75AE200889072 /* 14889.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 14889.cpp; sourceTree = "<group>"; };
-		DEFA328C24B86B4400889072 /* 14888.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 14888.cpp; sourceTree = "<group>"; };
-		DEFA32A524C05E8900889072 /* 9663.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 9663.cpp; sourceTree = "<group>"; };
+		DEF22A5B26A544F2005ABCE5 /* TwoPointer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TwoPointer; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF22A5E26A544F2005ABCE5 /* 1806.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1806.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DEF1DB1524B48909008B2FBC /* Frameworks */ = {
+		DEF22A5826A544F2005ABCE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -46,73 +38,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DEF1DB0F24B48909008B2FBC = {
+		DEF22A5226A544F2005ABCE5 = {
 			isa = PBXGroup;
 			children = (
-				DEF1DB1A24B48909008B2FBC /* back tracking */,
-				DEF1DB1924B48909008B2FBC /* Products */,
+				DEF22A5D26A544F2005ABCE5 /* TwoPointer */,
+				DEF22A5C26A544F2005ABCE5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DEF1DB1924B48909008B2FBC /* Products */ = {
+		DEF22A5C26A544F2005ABCE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DEF1DB1824B48909008B2FBC /* back tracking */,
+				DEF22A5B26A544F2005ABCE5 /* TwoPointer */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DEF1DB1A24B48909008B2FBC /* back tracking */ = {
+		DEF22A5D26A544F2005ABCE5 /* TwoPointer */ = {
 			isa = PBXGroup;
 			children = (
-				DEF1DB1B24B48909008B2FBC /* 15649.cpp */,
-				DEF1DB2224B5978B008B2FBC /* 15650.cpp */,
-				DEF1DB2424B59B5A008B2FBC /* 15651.cpp */,
-				DEF1DB2624B59FAE008B2FBC /* 15652.cpp */,
-				DEFA328624B75AE200889072 /* 14889.cpp */,
-				DEFA328C24B86B4400889072 /* 14888.cpp */,
-				DEFA32A524C05E8900889072 /* 9663.cpp */,
-				DEEEAC7B24CE96A9007C8748 /* 9663-1.cpp */,
-				DE6FC09A269DC26F004FD25F /* test.cpp */,
+				DEF22A5E26A544F2005ABCE5 /* 1806.cpp */,
 			);
-			path = "back tracking";
+			path = TwoPointer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DEF1DB1724B48909008B2FBC /* back tracking */ = {
+		DEF22A5A26A544F2005ABCE5 /* TwoPointer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DEF1DB1F24B48909008B2FBC /* Build configuration list for PBXNativeTarget "back tracking" */;
+			buildConfigurationList = DEF22A6226A544F2005ABCE5 /* Build configuration list for PBXNativeTarget "TwoPointer" */;
 			buildPhases = (
-				DEF1DB1424B48909008B2FBC /* Sources */,
-				DEF1DB1524B48909008B2FBC /* Frameworks */,
-				DEF1DB1624B48909008B2FBC /* CopyFiles */,
+				DEF22A5726A544F2005ABCE5 /* Sources */,
+				DEF22A5826A544F2005ABCE5 /* Frameworks */,
+				DEF22A5926A544F2005ABCE5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "back tracking";
-			productName = "back tracking";
-			productReference = DEF1DB1824B48909008B2FBC /* back tracking */;
+			name = TwoPointer;
+			productName = TwoPointer;
+			productReference = DEF22A5B26A544F2005ABCE5 /* TwoPointer */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DEF1DB1024B48909008B2FBC /* Project object */ = {
+		DEF22A5326A544F2005ABCE5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1150;
-				ORGANIZATIONNAME = "임수정";
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					DEF1DB1724B48909008B2FBC = {
-						CreatedOnToolsVersion = 11.5;
+					DEF22A5A26A544F2005ABCE5 = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = DEF1DB1324B48909008B2FBC /* Build configuration list for PBXProject "back tracking" */;
+			buildConfigurationList = DEF22A5626A544F2005ABCE5 /* Build configuration list for PBXProject "TwoPointer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,29 +103,29 @@
 				en,
 				Base,
 			);
-			mainGroup = DEF1DB0F24B48909008B2FBC;
-			productRefGroup = DEF1DB1924B48909008B2FBC /* Products */;
+			mainGroup = DEF22A5226A544F2005ABCE5;
+			productRefGroup = DEF22A5C26A544F2005ABCE5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEF1DB1724B48909008B2FBC /* back tracking */,
+				DEF22A5A26A544F2005ABCE5 /* TwoPointer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DEF1DB1424B48909008B2FBC /* Sources */ = {
+		DEF22A5726A544F2005ABCE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE6FC09B269DC26F004FD25F /* test.cpp in Sources */,
+				DEF22A5F26A544F2005ABCE5 /* 1806.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		DEF1DB1D24B48909008B2FBC /* Debug */ = {
+		DEF22A6026A544F2005ABCE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -168,6 +151,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -192,7 +176,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -200,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		DEF1DB1E24B48909008B2FBC /* Release */ = {
+		DEF22A6126A544F2005ABCE5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,6 +210,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -244,14 +229,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		DEF1DB2024B48909008B2FBC /* Debug */ = {
+		DEF22A6326A544F2005ABCE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -261,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		DEF1DB2124B48909008B2FBC /* Release */ = {
+		DEF22A6426A544F2005ABCE5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -274,25 +259,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DEF1DB1324B48909008B2FBC /* Build configuration list for PBXProject "back tracking" */ = {
+		DEF22A5626A544F2005ABCE5 /* Build configuration list for PBXProject "TwoPointer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEF1DB1D24B48909008B2FBC /* Debug */,
-				DEF1DB1E24B48909008B2FBC /* Release */,
+				DEF22A6026A544F2005ABCE5 /* Debug */,
+				DEF22A6126A544F2005ABCE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DEF1DB1F24B48909008B2FBC /* Build configuration list for PBXNativeTarget "back tracking" */ = {
+		DEF22A6226A544F2005ABCE5 /* Build configuration list for PBXNativeTarget "TwoPointer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEF1DB2024B48909008B2FBC /* Debug */,
-				DEF1DB2124B48909008B2FBC /* Release */,
+				DEF22A6326A544F2005ABCE5 /* Debug */,
+				DEF22A6426A544F2005ABCE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DEF1DB1024B48909008B2FBC /* Project object */;
+	rootObject = DEF22A5326A544F2005ABCE5 /* Project object */;
 }
