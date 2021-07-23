@@ -63,20 +63,18 @@ void deleteNode(){
 void left(){
     if(cursor->prev != head){
         cursor = cursor->prev;
-//        cout << cursor->data << endl;
     }
 }
 
 void right(){
     if(cursor != tail){
         cursor = cursor->next;
-//        cout << cursor->data << endl;
     }
 }
 
 int main(){
     //input
-    char str[100500];
+    char str[100001];
     cin >> str;
     
     init();
@@ -112,5 +110,6 @@ int main(){
         cout << cursor->next->data;
         cursor = cursor->next;
     }
+    cout << "\n"; // 이거때문인거 실화야?
     return 0;
 }
