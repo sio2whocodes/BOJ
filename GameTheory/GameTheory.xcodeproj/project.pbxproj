@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE618D8126DE564A003BF243 /* 9660.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE618D8026DE564A003BF243 /* 9660.cpp */; };
 		DE85B98F26C3AA540090AE11 /* 9658.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE85B98E26C3AA540090AE11 /* 9658.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DE618D8026DE564A003BF243 /* 9660.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 9660.cpp; sourceTree = "<group>"; };
 		DE85B96926C0F15F0090AE11 /* GameTheory */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GameTheory; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE85B96C26C0F15F0090AE11 /* 9659.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 9659.cpp; sourceTree = "<group>"; };
 		DE85B97626C227D20090AE11 /* 9657.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 9657.cpp; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				DE85B96C26C0F15F0090AE11 /* 9659.cpp */,
 				DE85B97626C227D20090AE11 /* 9657.cpp */,
 				DE85B98E26C3AA540090AE11 /* 9658.cpp */,
+				DE618D8026DE564A003BF243 /* 9660.cpp */,
 			);
 			path = GameTheory;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE618D8126DE564A003BF243 /* 9660.cpp in Sources */,
 				DE85B98F26C3AA540090AE11 /* 9658.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
