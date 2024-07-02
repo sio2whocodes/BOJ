@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		CD2579042C299ACE00EC76D4 /* 11660.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2579032C299ACE00EC76D4 /* 11660.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		DEFA32AE24C071DA00889072 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -24,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		CD2579032C299ACE00EC76D4 /* 11660.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11660.cpp; sourceTree = "<group>"; };
+		CD2579052C32894C00EC76D4 /* 12865-2024.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12865-2024.cpp"; sourceTree = "<group>"; };
+		CD2579072C328E6500EC76D4 /* 12865-2024.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "12865-2024.swift"; sourceTree = "<group>"; };
 		DE1066ED24F3B68300F2B86D /* 11004.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11004.cpp; sourceTree = "<group>"; };
 		DE183D0224EA9608003A5C17 /* 11053.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11053.cpp; sourceTree = "<group>"; };
 		DE183D0424EB8BD5003A5C17 /* 12865.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 12865.cpp; sourceTree = "<group>"; };
@@ -116,6 +114,8 @@
 				DEBF86AE2689B8F1006FE352 /* 11066-2.cpp */,
 				DE85B92226AE82240090AE11 /* 9251.cpp */,
 				CD2579032C299ACE00EC76D4 /* 11660.cpp */,
+				CD2579052C32894C00EC76D4 /* 12865-2024.cpp */,
+				CD2579072C328E6500EC76D4 /* 12865-2024.swift */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -151,6 +151,7 @@
 				TargetAttributes = {
 					DEFA32AF24C071DA00889072 = {
 						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -177,7 +178,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD2579042C299ACE00EC76D4 /* 11660.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +296,25 @@
 		DEFA32B824C071DA00889072 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9667HQFPGB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		DEFA32B924C071DA00889072 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9667HQFPGB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
