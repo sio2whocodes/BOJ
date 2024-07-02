@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CD2579242C3415CC00EC76D4 /* 9184-2024.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD2579232C3415CC00EC76D4 /* 9184-2024.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		DEFA32AE24C071DA00889072 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -22,6 +26,7 @@
 		CD2579032C299ACE00EC76D4 /* 11660.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11660.cpp; sourceTree = "<group>"; };
 		CD2579052C32894C00EC76D4 /* 12865-2024.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "12865-2024.cpp"; sourceTree = "<group>"; };
 		CD2579072C328E6500EC76D4 /* 12865-2024.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "12865-2024.swift"; sourceTree = "<group>"; };
+		CD2579232C3415CC00EC76D4 /* 9184-2024.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "9184-2024.cpp"; sourceTree = "<group>"; };
 		DE1066ED24F3B68300F2B86D /* 11004.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11004.cpp; sourceTree = "<group>"; };
 		DE183D0224EA9608003A5C17 /* 11053.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11053.cpp; sourceTree = "<group>"; };
 		DE183D0424EB8BD5003A5C17 /* 12865.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 12865.cpp; sourceTree = "<group>"; };
@@ -116,6 +121,7 @@
 				CD2579032C299ACE00EC76D4 /* 11660.cpp */,
 				CD2579052C32894C00EC76D4 /* 12865-2024.cpp */,
 				CD2579072C328E6500EC76D4 /* 12865-2024.swift */,
+				CD2579232C3415CC00EC76D4 /* 9184-2024.cpp */,
 			);
 			path = DP;
 			sourceTree = "<group>";
@@ -178,6 +184,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD2579242C3415CC00EC76D4 /* 9184-2024.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
