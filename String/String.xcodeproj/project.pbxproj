@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		DE2BAA0A2402DE840040C305 /* 1316.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE2BAA092402DE840040C305 /* 1316.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		DE2BA9DC23F7DE6C0040C305 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,6 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CD2579272C352A2900EC76D4 /* 9935.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9935.swift; sourceTree = "<group>"; };
 		DE2BA9DE23F7DE6C0040C305 /* String */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = String; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2BA9E123F7DE6C0040C305 /* 11720.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11720.cpp; sourceTree = "<group>"; };
 		DE2BA9E823F7E5060040C305 /* 10809.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10809.cpp; sourceTree = "<group>"; };
@@ -74,6 +71,7 @@
 				DE2BA9F223FEDFF00040C305 /* 5622.cpp */,
 				DE2BAA072402D9510040C305 /* 2941.cpp */,
 				DE2BAA092402DE840040C305 /* 1316.cpp */,
+				CD2579272C352A2900EC76D4 /* 9935.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -109,6 +107,7 @@
 				TargetAttributes = {
 					DE2BA9DD23F7DE6C0040C305 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -135,7 +134,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE2BAA0A2402DE840040C305 /* 1316.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,20 +252,25 @@
 		DE2BA9E623F7DE6C0040C305 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9667HQFPGB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		DE2BA9E723F7DE6C0040C305 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9667HQFPGB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
