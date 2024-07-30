@@ -17,8 +17,7 @@ int main() {
         int out, in;
         cin >> out >> in;
         
-        total -= out;
-        total += in;
+        total = total - out + in;
         
         if(max < total){
             max = total;
