@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CD38D1462CC0FAC300E44013 /* 1062.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD6A30E72C5C8A2A0024A4D1 /* 1062.cpp */; };
+		CD38D14E2CCF520500E44013 /* 피로도.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD38D14D2CCF520500E44013 /* 피로도.swift */; };
+		CD59D7D12D2E0C700068E31C /* pr1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD59D7D02D2E0C700068E31C /* pr1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +25,8 @@
 
 /* Begin PBXFileReference section */
 		CD33FA462C3EC0C300C863AD /* 14938.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 14938.cpp; sourceTree = "<group>"; };
+		CD38D14D2CCF520500E44013 /* 피로도.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "피로도.swift"; sourceTree = "<group>"; };
+		CD59D7D02D2E0C700068E31C /* pr1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pr1.cpp; sourceTree = "<group>"; };
 		CD6A30E72C5C8A2A0024A4D1 /* 1062.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1062.cpp; sourceTree = "<group>"; };
 		CDC3B02A2C3C34A5001CC80D /* 1987.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 1987.cpp; sourceTree = "<group>"; };
 		DE85B95026BACEAD0090AE11 /* 11437.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11437.cpp; sourceTree = "<group>"; };
@@ -82,6 +85,8 @@
 				CDC3B02A2C3C34A5001CC80D /* 1987.cpp */,
 				CD33FA462C3EC0C300C863AD /* 14938.cpp */,
 				CD6A30E72C5C8A2A0024A4D1 /* 1062.cpp */,
+				CD38D14D2CCF520500E44013 /* 피로도.swift */,
+				CD59D7D02D2E0C700068E31C /* pr1.cpp */,
 			);
 			path = dfsNbfs;
 			sourceTree = "<group>";
@@ -116,6 +121,7 @@
 				TargetAttributes = {
 					DEC9CF9725D137E8009EE2FC = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1620;
 					};
 				};
 			};
@@ -142,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD38D1462CC0FAC300E44013 /* 1062.cpp in Sources */,
+				CD38D14E2CCF520500E44013 /* 피로도.swift in Sources */,
+				CD59D7D12D2E0C700068E31C /* pr1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,20 +270,25 @@
 		DEC9CFA025D137E8009EE2FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9667HQFPGB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
 		DEC9CFA125D137E8009EE2FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9667HQFPGB;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
